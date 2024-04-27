@@ -397,6 +397,56 @@ h1 {
 .bloque2{
     flex-basis: 30%;
     padding: 24px 18px;
-    top: 0;
     background-color: rgba(63,61,87,0.5);
+    position: relative;
+}
+
+.contenedor-sticky{
+    position: sticky;
+    top: 24px;
+}
+
+.contenedor-sticky ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.contenedor-sticky ul li{
+    margin-bottom: 10px;
+}
+.contenedor-sticky ul li a img{
+    border-radius: 4px;
+}
+
+.contenedor-sticky ul li a div{
+    margin-left: 10px;
+    color: #2ac55e;
+}
+
+.contenedor-sticky div h2,.links{
+    font-size: 14px;
+}
+
+.links{
+    margin-left: 10px;
+    color: #2ac55e; 
+}
+
+.links:hover{
+    text-decoration-line: underline;
+    color: #4ad578;
+    
+}
+.caja3 ul li{
+    font-size: 14px;
+}
+.caja3 p b{
+    color: #2ac55e;
+    font-size: 14px;
+}
+footer{
+    background-color: #280033;
+}
+.footer-logo a img{
+    height: 46px;
+    width: 183px ;
 }
