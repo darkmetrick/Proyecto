@@ -11,7 +11,14 @@ body{
 .body{
     width: 95%;
     margin-left: 66px;
-    background-image:url("../img/Site-background-dark.webp");
+}
+
+.background {
+    position: fixed;
+}
+
+.background img {
+    opacity: 0.55;
 }
 
 .contenedor{
@@ -20,9 +27,6 @@ body{
     padding-top: 28px;
 }
 
-.background {
-    background-image:url("../img/Site-background-dark.webp");
-}
 .flex{
     display: flex;
 }
@@ -45,6 +49,10 @@ a{
 
 .centrar{
     align-items: center;
+}
+
+.relative {
+    position: relative;
 }
 
 /* header */
@@ -165,6 +173,7 @@ option{
 
 main{
     margin-top: -3px;
+    margin-bottom: 83px;
     background-color: rgba(33,31,63,0.96);
     display: flex;
 }
