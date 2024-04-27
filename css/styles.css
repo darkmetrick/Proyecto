@@ -39,6 +39,14 @@ a{
     justify-content: flex-end;
 }
 
+.limite{
+    justify-content: space-between;
+}
+
+.centrar{
+    align-items: center;
+}
+
 /* header */
 
 .header-grid{
@@ -138,7 +146,6 @@ option{
     height: 12px;
     background-image: url("../img/Grass-top-overworld.png");
     background-repeat: repeat-x;
-    z-index: 20;
 }
 
 /* main */
@@ -147,5 +154,47 @@ main{
     margin-top: -3px;
     background-color: rgba(33,31,63,0.96);
     padding: 24px 36px;
-    /* background-color: #211f3ffa; */
+}
+.sobre-titulo p{
+    margin: 0;
+    font-size: 14px;
+    color: #e6e6e6;
+}
+.sobre-titulo p a{
+    color: #2ac55e;
+}
+
+h1 {
+    font-family: AndyBold;
+    font-size: 36px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.boton{
+    height: 36px;
+    padding: 0 2px;
+    outline: 2px solid black;
+    border: 3px solid #5974d5;
+    background-color: #334885;
+    border-radius:10px ;
+    font-size: 12px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.boton2{
+    margin-left: 10px;
+    padding: 0 5px;
+}
+
+.boton:hover{
+    background-color: #5974d5;
+    color: #ff0;
+}
+
+.puntos{
+    height: 20px;
+    width: 20px;
+    filter:invert();
 }
