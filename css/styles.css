@@ -231,4 +231,130 @@ h1 {
     width: 270px;
     height: 346px;
     background-color: #334885;
+    border-radius: 8px;
+}
+.carta-titulo{
+    height: 51px;
+    width: 266px;
+    border: 2px solid #5974d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.carta-titulo h2{
+    font-size: 20px;
+    font-family: AndyBold,sans-serif;
+}
+
+.carta-imagen{
+    width: 266px;
+    height: 95px;
+    border-left:2px solid #5974d5;
+    border-right:2px solid #5974d5;
+    padding-bottom: 15px;
+}
+
+.carta-imagen img{
+    width: 266px;
+    height: 95px;
+}
+
+.carta-subtitulo{
+    height: 33px;
+    width: 266px;
+    border-left:2px solid #5974d5;
+    border-right:2px solid #5974d5;
+    padding-bottom: 5px;
+}
+
+.carta-subtitulo h2{
+    margin: 0 auto;
+    background-color: #2b3865;
+    height: 33px;
+    width: 256px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AndyBold;
+    border-radius: 6px;
+}
+.carta-descripcion{
+    width: 266px;
+    height: 68px;
+    border-left:2px solid #5974d5;
+    border-right:2px solid #5974d5;
+    padding: 10px 0 0 0;
+}
+
+.carta-descripcion div{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #2b3865;
+    width: 256px;
+    border-radius: 6px;
+}
+
+.carta-descripcion div ul{
+    padding-left: 10px;
+    list-style-type: none;
+    margin: 3px 0;
+}
+
+.carta-descripcion div ul li{
+    margin-bottom: 4px;
+}
+
+.carta-descripcion div div h3{
+    padding-top: 5px;
+    margin: 0;
+    margin-left: -10px;
+}
+
+.carta-descripcion div div h3,.carta-descripcion div div ul li{
+    font-size: 15px;
+    font-family: AndyBold;
+}
+
+.carta-plataforma{
+    padding: 11px 0 17px;
+    border-left:2px solid #5974d5;
+    border-right:2px solid #5974d5;
+    border-bottom:2px solid #5974d5;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.contenedor-plataforma{
+    width: 256px;
+    height: 34px;
+    margin: 0 auto;
+    background-color: #2b3865;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.carta-plataforma div div h3{
+    margin: 0;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: AndyBold;
+}
+
+.plataforma-img{
+    padding-right: 40px;
+}
+
+.plataforma-img div {
+    font-size: 15px;
+    font-family: AndyBold;
+}
+
+.plataforma-img img {
+    margin-left: 5px;
 }
