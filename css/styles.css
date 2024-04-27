@@ -1,7 +1,3 @@
-.fondo{
-    background-image: url(/img/Site-background-dark.webp);
-}
-
 body{
     background-color: #02120b;
     color: #fff;
@@ -55,7 +51,43 @@ a{
     position: relative;
 }
 
+.absolute {
+    position: absolute;
+}
+
 /* header */
+
+.caja-registrar{
+    top: 20px;
+    right: 0;
+}
+
+.iniciar-sesion a {
+    background-color: transparent;
+    border: 1px solid #fdfffe;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color:#fdfffe;
+}
+
+.iniciar-sesion a:hover{
+    color: #4ad578;
+    border: 1px solid #4ad578;
+}
+
+.registrarse a{
+    background-color: #298b4a;
+    color: #e6e6e6;
+    border: 1px solid #298b4a;
+    border-radius: 3px;
+    margin-left: 15px;
+    padding: 8px 15px;
+    transition-duration: 0.25s;
+}
+
+.registrarse a:hover{
+    background-color: #41dc75;
+}
 
 .header-grid{
     display: grid;
