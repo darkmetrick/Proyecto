@@ -450,3 +450,83 @@ footer{
     height: 46px;
     width: 183px ;
 }
+
+.quitarPuntos {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contenedor-footer{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 70px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-footer {
+    width: 231px;
+    height: 344px;
+}
+.footer-imagen1{
+    width: 78px;
+    height: 78px;
+    margin-right: 18px;
+}
+.footer-imagen2,.footer-imagen3{
+    width: 119px;
+    height: 35px;
+
+}
+
+.footer-imagen2{
+    margin-bottom: 8px;
+}
+
+.apk li{
+    margin-right: 15px;
+}
+
+.ul-espaciado li{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.ul-espaciado li a{
+    color: #ffc500;
+}
+
+.apk li a{
+    color: #fdfffe;
+}
+
+.contenedor-footer2{
+    background-color: #000000;
+    color: #ffffff;
+}
+.contenedor-footer2 .caja{
+    width: 95%;
+    margin: 0 auto;
+}
+.caja{
+    text-align: center;
+}
+
+.caja div{
+    padding: 16px;
+    font-size: 14px;
+}
+
+.caja1{
+    border-bottom: 1px solid #525169;
+}
+
+.caja2 a{
+    color: #ffc500;
+    font-weight: bold;
+}
+
+.caja2 a:hover{
+    text-decoration-line:underline;
+    color: #e6e6e6;
+}
