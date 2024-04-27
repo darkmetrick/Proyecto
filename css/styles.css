@@ -127,3 +127,25 @@ select{
     border: none;
     color: #fdfffe;
 }
+
+option{
+    background-color: #211f3f;
+}
+
+/* cesped */
+
+.cesped{
+    height: 12px;
+    background-image: url("../img/Grass-top-overworld.png");
+    background-repeat: repeat-x;
+    z-index: 20;
+}
+
+/* main */
+
+main{
+    margin-top: -3px;
+    background-color: rgba(33,31,63,0.96);
+    padding: 24px 36px;
+    /* background-color: #211f3ffa; */
+}
